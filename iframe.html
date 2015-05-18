@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html ng-app="iframeApp">
+<head>
+  <meta charset="utf-8" />
+  <title>Angular Dnd</title>
+  <link rel="stylesheet" href="bower_components/angular/angular-csp.css">
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+  <div ng-controller="MainController" ng-cloak>
+    <div
+      jqyoui-droppable="{onDrop: 'onDrop'}"
+      data-drop="true"
+      class="dropzone"
+      ></div>
+  </div>
+
+</body>
+</html>
+
+

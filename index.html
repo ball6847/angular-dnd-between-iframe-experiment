@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html ng-app="app">
+<head>
+  <meta charset="utf-8" />
+  <title>Angular DnD Between Iframe Experiment</title>
+  <link rel="stylesheet" href="bower_components/angular/angular-csp.css">
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+  <div ui-view>Loading application, please wait ...</div>
+
+  <iframe id="iframe-app" src="iframe.html"></iframe>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="jquery-ui-droppable-iframe-fix.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-dragdrop/src/angular-dragdrop.min.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="src/app.js"></script>
+  <script src="src/services/IframeService.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+#widget-collection {
+  margin-bottom: 1em;
+}
+
+.object {
+  display: inline-block;
+  background: lime;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.dropzone {
+  width:500px;
+  height: 200px;
+  background:lightblue;
+}
+
+#iframe-app {
+  height: 500px;
+  width: 700px;
+  margin-top: 1em;
+}
